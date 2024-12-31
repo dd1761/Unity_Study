@@ -16,6 +16,7 @@ public class Emeny : MonoBehaviour
     SpriteRenderer spriter;
     Animator anim;
     WaitForFixedUpdate wait;
+    Collider2D coll;
 
     // Start is called before the first frame update
     void Awake()
@@ -24,12 +25,13 @@ public class Emeny : MonoBehaviour
         spriter = GetComponent<SpriteRenderer>();
         anim = GetComponent<Animator>(); // Animator 초기화
         wait = new WaitForFixedUpdate();
+        coll = GetComponent<Collider2D>();
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
-        if (!isLive) {
+        if (!isLive || anim.GetCurrentAnimatorStateInfo(0).IsName("Hit")) {
             return;
         }
 
@@ -51,6 +53,10 @@ public class Emeny : MonoBehaviour
     {
         target = GameManager.instance.player.GetComponent<Rigidbody2D>();
         isLive = true;
+        coll.enabled = true;
+        rigid.simulated = true;
+        spriter.sortingOrder = 2;
+        anim.SetBool("Dead", false);
         health = maxHealth;
     }
 
@@ -62,16 +68,17 @@ public class Emeny : MonoBehaviour
         health = data.health;
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    void OnTriggerEnter2D(Collider2D collision)
     {
-        if (!collision.CompareTag("Bullet"))
+        if (!collision.CompareTag("Bullet") || !isLive)
         {
             return;
         }
 
         health -= collision.GetComponent<Bullet>().damage;
+        StartCoroutine("KnockBack");
 
-        if(health > 0)
+        if (health > 0)
         {
             // 살아있을 때
             anim.SetTrigger("Hit");
@@ -80,7 +87,14 @@ public class Emeny : MonoBehaviour
         else
         {
             // 죽었을 때
-            Dead();
+            isLive = false;
+            coll.enabled = false;
+            rigid.simulated = false;
+            spriter.sortingOrder = 1;
+
+            anim.SetBool("Dead", true);
+            GameManager.instance.kill++;
+            GameManager.instance.GetExp();
         }
     }
 
