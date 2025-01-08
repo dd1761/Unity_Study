@@ -11,9 +11,9 @@ public class Follow : MonoBehaviour
         rect = GetComponent<RectTransform>();
     }
 
-    private void FixedUpdate()
+    void FixedUpdate()
     {
-        
+        rect.position = Camera.main.WorldToScreenPoint(GameManager.instance.player.transform.position);
     }
 
 }

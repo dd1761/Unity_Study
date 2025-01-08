@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "C:\\survive_study\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{90039BFA-0032-395D-E536-7C6DAD00C6DE}|Assembly-CSharp.csproj|c:\\survive_study\\assets\\undead survivor\\sprites\\codes\\follow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90039BFA-0032-395D-E536-7C6DAD00C6DE}|Assembly-CSharp.csproj|solutionrelative:assets\\undead survivor\\sprites\\codes\\follow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{90039BFA-0032-395D-E536-7C6DAD00C6DE}|Assembly-CSharp.csproj|c:\\survive_study\\assets\\undead survivor\\sprites\\codes\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{90039BFA-0032-395D-E536-7C6DAD00C6DE}|Assembly-CSharp.csproj|solutionrelative:assets\\undead survivor\\sprites\\codes\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{90039BFA-0032-395D-E536-7C6DAD00C6DE}|Assembly-CSharp.csproj|c:\\survive_study\\assets\\undead survivor\\sprites\\codes\\hud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{90039BFA-0032-395D-E536-7C6DAD00C6DE}|Assembly-CSharp.csproj|C:\\survive_study\\assets\\undead survivor\\sprites\\codes\\hud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{90039BFA-0032-395D-E536-7C6DAD00C6DE}|Assembly-CSharp.csproj|solutionrelative:assets\\undead survivor\\sprites\\codes\\hud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -42,11 +46,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "Follow.cs",
+              "DocumentMoniker": "C:\\survive_study\\Assets\\Undead Survivor\\Sprites\\Codes\\Follow.cs",
+              "RelativeDocumentMoniker": "Assets\\Undead Survivor\\Sprites\\Codes\\Follow.cs",
+              "ToolTip": "C:\\survive_study\\Assets\\Undead Survivor\\Sprites\\Codes\\Follow.cs",
+              "RelativeToolTip": "Assets\\Undead Survivor\\Sprites\\Codes\\Follow.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T07:57:04.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "HUD.cs",
               "DocumentMoniker": "C:\\survive_study\\Assets\\Undead Survivor\\Sprites\\Codes\\HUD.cs",
               "RelativeDocumentMoniker": "Assets\\Undead Survivor\\Sprites\\Codes\\HUD.cs",
@@ -54,12 +71,11 @@
               "RelativeToolTip": "Assets\\Undead Survivor\\Sprites\\Codes\\HUD.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAAACcAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-31T06:47:48.605Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-31T06:47:48.605Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Scanner.cs",
               "DocumentMoniker": "C:\\survive_study\\Assets\\Undead Survivor\\Sprites\\Codes\\Scanner.cs",
               "RelativeDocumentMoniker": "Assets\\Undead Survivor\\Sprites\\Codes\\Scanner.cs",
@@ -71,7 +87,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Weapon.cs",
               "DocumentMoniker": "C:\\survive_study\\Assets\\Undead Survivor\\Sprites\\Codes\\Weapon.cs",
               "RelativeDocumentMoniker": "Assets\\Undead Survivor\\Sprites\\Codes\\Weapon.cs",
@@ -83,7 +99,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Bullet.cs",
               "DocumentMoniker": "C:\\survive_study\\Assets\\Undead Survivor\\Sprites\\Codes\\Bullet.cs",
               "RelativeDocumentMoniker": "Assets\\Undead Survivor\\Sprites\\Codes\\Bullet.cs",
@@ -95,7 +111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Emeny.cs",
               "DocumentMoniker": "C:\\survive_study\\Assets\\Undead Survivor\\Sprites\\Codes\\Emeny.cs",
               "RelativeDocumentMoniker": "Assets\\Undead Survivor\\Sprites\\Codes\\Emeny.cs",
@@ -107,7 +123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\survive_study\\Assets\\Undead Survivor\\Sprites\\Codes\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Undead Survivor\\Sprites\\Codes\\GameManager.cs",
@@ -120,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Spawner.cs",
               "DocumentMoniker": "C:\\survive_study\\Assets\\Undead Survivor\\Sprites\\Codes\\Spawner.cs",
               "RelativeDocumentMoniker": "Assets\\Undead Survivor\\Sprites\\Codes\\Spawner.cs",
@@ -132,7 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "PoolManager.cs",
               "DocumentMoniker": "C:\\survive_study\\Assets\\Undead Survivor\\Sprites\\Codes\\PoolManager.cs",
               "RelativeDocumentMoniker": "Assets\\Undead Survivor\\Sprites\\Codes\\PoolManager.cs",

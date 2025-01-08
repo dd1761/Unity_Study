@@ -39,9 +39,9 @@ public class HUD : MonoBehaviour
                 myText.text = string.Format("{0:D2}:{1:D2}", min, sec);
                 break;
             case InfoType.Health:
-                float currentHealth = GameManager.instance.health;
+                float curHealth = GameManager.instance.health;
                 float maxHealth = GameManager.instance.maxHealth;
-                mySlider.value = currentHealth / maxHealth;
+                mySlider.value = curHealth / maxHealth;
                 break;
         }    
     }
