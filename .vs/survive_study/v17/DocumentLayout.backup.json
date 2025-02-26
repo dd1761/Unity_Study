@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{90039BFA-0032-395D-E536-7C6DAD00C6DE}|Assembly-CSharp.csproj|solutionrelative:assets\\undead survivor\\sprites\\codes\\follow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{90039BFA-0032-395D-E536-7C6DAD00C6DE}|Assembly-CSharp.csproj|c:\\survive_study\\assets\\undead survivor\\sprites\\codes\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{90039BFA-0032-395D-E536-7C6DAD00C6DE}|Assembly-CSharp.csproj|C:\\survive_study\\assets\\undead survivor\\sprites\\codes\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{90039BFA-0032-395D-E536-7C6DAD00C6DE}|Assembly-CSharp.csproj|solutionrelative:assets\\undead survivor\\sprites\\codes\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -56,7 +56,7 @@
               "RelativeDocumentMoniker": "Assets\\Undead Survivor\\Sprites\\Codes\\Follow.cs",
               "ToolTip": "C:\\survive_study\\Assets\\Undead Survivor\\Sprites\\Codes\\Follow.cs",
               "RelativeToolTip": "Assets\\Undead Survivor\\Sprites\\Codes\\Follow.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-31T07:57:04.648Z",
               "EditorCaption": ""
@@ -69,9 +69,10 @@
               "RelativeDocumentMoniker": "Assets\\Undead Survivor\\Sprites\\Codes\\HUD.cs",
               "ToolTip": "C:\\survive_study\\Assets\\Undead Survivor\\Sprites\\Codes\\HUD.cs",
               "RelativeToolTip": "Assets\\Undead Survivor\\Sprites\\Codes\\HUD.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAAACcAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAACYAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-31T06:47:48.605Z"
+              "WhenOpened": "2024-12-31T06:47:48.605Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -129,7 +130,7 @@
               "RelativeDocumentMoniker": "Assets\\Undead Survivor\\Sprites\\Codes\\GameManager.cs",
               "ToolTip": "C:\\survive_study\\Assets\\Undead Survivor\\Sprites\\Codes\\GameManager.cs",
               "RelativeToolTip": "Assets\\Undead Survivor\\Sprites\\Codes\\GameManager.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAADwvyAAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACAAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-30T02:38:03.026Z",
               "EditorCaption": ""
